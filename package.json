@@ -1,0 +1,32 @@
+{
+  "name": "dsh-web-search-duck",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "r-ayin",
+  "description": "Web search provider that bridges an OpenAI Responses-API-compatible endpoint with the web_search_preview tool into the dsh web seam.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-ayin/dsh-web-search-duck.git"
+  },
+  "homepage": "https://github.com/r-ayin/dsh-web-search-duck#readme",
+  "bugs": {
+    "url": "https://github.com/r-ayin/dsh-web-search-duck/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {}
+}
